@@ -11,6 +11,7 @@ function App() {
   }
   useEffect(()=>{
     onGetEventHourly()
+    console.log("im running");
   },[])
   return (
     <div className="App">
